@@ -64,8 +64,8 @@ function animateSlides() {
 }
 
 animateSlides();
-let mouse = document.querySelector(".cursor");
-let mouseTxt = mouse.querySelector("span");
+const mouse = document.querySelector(".cursor");
+const mouseTxt = mouse.querySelector("span");
 
 function cursor(e) {
   mouse.style.top = e.pageY + "px";
