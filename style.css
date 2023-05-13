@@ -221,3 +221,7 @@ body {
 .t-swipe3 {
   background: rgb(255, 129, 93);
 }
+
+body.hide {
+  overflow: hidden;
+}
